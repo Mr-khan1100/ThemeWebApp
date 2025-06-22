@@ -2,6 +2,42 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## live Link of App : https://themecard.netlify.app/
+
+# 📱 Theme web App
+ 
+A customizable React app with support for **Dark/Light modes**, **multiple color themes**, **expandable cards**, and **mention highlighting** — with local persistence using `LocalStorage`.
+
+---
+
+## 🚀 Features
+
+✅ Toggle between **Light** and **Dark** mode.
+✅ Switch between **Crimson**, **Aura**, and **Field** themes.
+✅ **Animated expandable card** with smooth height transitions.
+✅ For Animation used reactJs react-spring library. 
+✅ Reuseable component which can be used in a list or called at different places/module.  
+✅ Context Api to easy excess of theme and color state. 
+✅ Local persistence using **LocalStorage of web**  
+
+---
+
+# Project Stucture
+native/
+├── src/
+│   ├── components/
+│   │   ├── Button.js
+│   │   └── ExpandaleCard.js
+│   │   ├── Button.css
+│   │   └── ExpandaleCard.css
+│   ├── context/
+│   │   └── ThemeContext.js
+│   └── styles/
+│       ├── colorSchemes.js
+│       └── App.css
+├── App.js
+└── package.json
+
 ## Available Scripts
 
 In the project directory, you can run:
