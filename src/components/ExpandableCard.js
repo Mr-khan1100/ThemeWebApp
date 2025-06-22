@@ -70,7 +70,7 @@ export default function ExpandableCard({ title, summary }) {
                 {open &&
                     items.map((it, i) => (
                         <div  key={`item-${i}`}>
-                            <div className="item-row">
+                            <div className="item-row" style={{ borderBottom: `0.5px solid ${colors.themeButton.default.bg}` }}>
                                 <div
                                     className="swatch"
                                     style={{
@@ -122,9 +122,9 @@ export default function ExpandableCard({ title, summary }) {
                                     )}
                                 </div>
                             </div>
-                            {i < items.length - 1 && (
-                                <hr style={{ borderColor: colors.themeButton.default.bg }} />
-                            )}
+                            {/* {i < items.length - 1 && (
+                                // <hr  />
+                            )} */}
                         </div>
                     ))}
             </div>
